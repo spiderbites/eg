@@ -2,4 +2,8 @@
 ** emacs -batch -l dunnet
 * toggle to utf-8
 ** C-c C-x \\
-
+* org-mode
+** =vsum($1, $4)
+Sum over row
+** C-u C-c *
+Fill column
