@@ -1,0 +1,4 @@
+* set screen to 75% original size
+** defaults write -g AppleDisplayScaleFactor 0.75
+* show hidden files in finder
+** defaults write com.apple.Finder AppleShowAllFiles YES

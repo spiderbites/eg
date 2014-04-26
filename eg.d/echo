@@ -1,0 +1,11 @@
+* echo bell
+** echo -ne "\a"
+ -n     Do not output the trailing new line.
+ -e       Enable interpretation of the following backslash escaped characters:
+   \a       alert (bell)
+   \b       backspace
+   \c       suppress trailing new line
+   \n       new line
+   \r       carriage return
+   \t       horizontal tab
+   \\       backslash

@@ -1,0 +1,17 @@
+* monitor wireless activity
+** tcpdump -i en1 -nSX
+-i any        Listen on all interfaces just to see if you're seeing any traffic.
+-n            Don't resolve hostnames.
+-nn           Don't resolve hostnames or port names.
+-X            Show the packet's contents in both hex and ASCII.
+-XX           Same as -X, but also shows the ethernet header.
+-v, -vv, -vvv Increase the amount of packet information you get back.
+-c            Only get x number of packets and then stop.
+-s            Define the snaplength (size) of the capture in bytes. 
+-s0           Get everything.
+-S            Print absolute sequence numbers.
+-e            Get the ethernet header as well.
+-q            Show less protocol information.
+-E            Decrypt IPSEC traffic by providing an encryption key.
+* monitor ethernet activity
+** tcpdump -i en0 

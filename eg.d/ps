@@ -1,0 +1,10 @@
+* owner of all processes
+** ps aux
+* owner and name of process
+** ps ax
+* not owned by a tty
+** ps +x
+* all processes
+** ps -e
+* search process
+** ps ax | grep process

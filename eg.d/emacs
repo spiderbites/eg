@@ -1,0 +1,5 @@
+* dunnet
+** emacs -batch -l dunnet
+* toggle to utf-8
+** C-c C-x \\
+

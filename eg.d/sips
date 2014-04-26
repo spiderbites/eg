@@ -1,0 +1,4 @@
+* resize image
+** sips -Z 640 some_image.jpg
+-Z  preserve aspect ratio
+

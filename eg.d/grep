@@ -1,0 +1,4 @@
+* Search recursively in currect directory
+** grep -R <text> ./*
+* Not case sensitive
+** grep -i <text>

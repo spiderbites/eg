@@ -1,0 +1,8 @@
+* http://misc.flogisoft.com/bash/tip_colors_and_formatting
+** BG_BLUE=$'\033[44m'
+** BG_BLACK=$'\033[40m'
+** BG_YELLOW=$'\033[43m'
+** BG_GREY=$'\033[47m'
+** RED=$'\033[0;31m'
+** YELLOW=$'\\\n\033[0;33m'
+** GREEN=$'\033[0;32m'

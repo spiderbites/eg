@@ -1,0 +1,1 @@
+** rsync -anvz --partial --progress /web/secondstorypress/shared/system rails1931.twg.ca:/web/secondstorypress.ca/shared/system

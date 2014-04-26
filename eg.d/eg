@@ -1,0 +1,17 @@
+* add a new command 
+** eg add command
+- put notes here
+* edit a command
+** eg edit command
+- default editor is vi
+* remove a command
+** eg rm command
+- confirm with "y"
+* list all available commands
+** eg -l
+* only show examples
+** eg command
+* show examples with titles
+** eg -t command
+* show titles, examples and notes
+** eg -a command

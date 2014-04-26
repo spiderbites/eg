@@ -1,0 +1,4 @@
+** top -o mem
+** top -o cpu
+* notes
+- hit 'o' when top is running to choose order.

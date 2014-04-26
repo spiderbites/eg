@@ -1,0 +1,2 @@
+* wc ~/some/file
+* ls -l | wc -l

@@ -1,0 +1,9 @@
+* compress
+** tar -zcvf name_of_tar_file.tar.gz /path/to/directory/to/compress
+-z  compress archive using gzip
+-c  create archive
+-v  verbose - display progress
+-f  archive file name
+* extract
+** tar -zxvf tar_file.tar.gz -C ~/where/to/extract
+-x  extract files

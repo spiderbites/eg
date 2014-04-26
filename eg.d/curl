@@ -1,0 +1,4 @@
+* get current ip
+** curl ifconfig.me
+* only return headers
+** curl -I example.com
