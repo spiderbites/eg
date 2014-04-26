@@ -3,7 +3,12 @@
 USAGE="Usage: eg [-a -t -l] command"
 FORMAT="Format: \n\t* title\n\t** example\n\tdescription"
 DATA_DIR="./eg.d"
-EDITOR="vi"
+
+if [[ -z "$EDITOR" ]]; then
+  EDITOR="vi"
+fi
+
+echo $EDITOR
 
 show_all=false
 show_top=false
