@@ -4,6 +4,24 @@
 ** C-c C-x \\
 * org-mode
 ** =vsum($1, $4)
-Sum over row
+sum over row
 ** C-u C-c *
-Fill column
+fill column
+* elisp
+** C-x C-e
+evaluate current expression
+** M-:
+evalnuate expression in minibuffer
+** M-x ielm
+elisp REPL
+* help
+** C-h k
+describe key
+** C-h a
+search function by name
+** C-h v
+describe variable
+** C-h m
+describe mode
+** C-h C-h
+help for help

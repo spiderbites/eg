@@ -2,7 +2,7 @@
 
 USAGE="Usage: eg [-a -t -l] command"
 FORMAT="Format: \n\t* title\n\t** example\n\tdescription\n\neg -a eg\n"
-DATA_DIR="./eg.d"
+DATA_DIR="$HOME/code/src/eg/eg.d"
 
 if [[ -z "$EDITOR" ]]; then
   EDITOR="vi"
