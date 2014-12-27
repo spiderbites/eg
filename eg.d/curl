@@ -2,3 +2,11 @@
 ** curl ifconfig.me
 * only return headers
 ** curl -I example.com
+* post data
+** curl --data name='Grizzly' http://some.url/bears
+** curl -F name='Grizzly' http://some.url/bears
+--data  uses application/x-www-form-urlencoded
+-F      uses multipart/form-data
+* send delete request
+** curl -X "DELETE" http://some.url/bears/123
+

@@ -1,0 +1,5 @@
+* using regular pg install
+** pg_restore -U postgres --no-owner -d name_of_db path/to/database.pg.dump
+* using postgres.app
+** pg_restore -U your-user-name-here --no-owner -d name_of_db path/to/database.pg.dump -h localhost
+
