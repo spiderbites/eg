@@ -1,0 +1,2 @@
+* copy some code for pasting into keynote
+** highlight --syntax=YOURLANGUAGE -O rtf YOURFILE | pbcopy
